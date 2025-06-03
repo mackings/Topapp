@@ -2,7 +2,7 @@ name: Myapp
 on: push
 jobs:
     firstjob:
-        runs-on: [ubuntu-latest,macos,windows]
+        runs-on: ubuntu-latest
         steps:
           - name: First deploy
             run: echo "Hello Mac kingsley"
