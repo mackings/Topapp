@@ -1,10 +1,10 @@
-name: MyApp
-on: [push,pull_request]
+name: Myapp
+on: push
 jobs:
-    first_Job:
-         runs-on: ubuntu-latest
-         steps:
-           - name: Welcome macs
-             run: echo "Welcome Macs"
+    firstjob:
+        runs-on: [ubuntu-latest,macos,windows]
+        steps:
+          - name: First deploy
+            run: echo "Hello Mac kingsley"
             
   
