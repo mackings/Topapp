@@ -1,0 +1,10 @@
+name: MyApp
+on: [push,pull_request]
+jobs:
+    first_Job:
+         runs-on: ubuntu-latest
+         steps:
+           - name: Welcome macs
+             run: echo "Welcome Macs"
+            
+  

@@ -1,0 +1,12 @@
+{
+    "yaml.schemas": {
+        "https://json.schemastore.org/github-workflow.json": [
+            "file:///c%3A/Users/kings/Desktop/Space/.github/workflow/pipe.yml",
+            "file:///c%3A/Users/kings/Desktop/Space/.github/workflow/pipe.yaml",
+            "file:///c%3A/Users/kings/Desktop/Space/.github/workflow/pipes.yaml",
+            "file:///c%3A/Users/kings/Desktop/Space/.github/workflow/pipes.yml"
+        ],
+        "file:///c%3A/Users/kings/.vscode/extensions/atlassian.atlascode-3.8.2/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml",
+        "kubernetes": "*.yaml"
+    }
+}
