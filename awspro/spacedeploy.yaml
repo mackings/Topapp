@@ -1,0 +1,19 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: spaceapp
+spec:
+  selector:
+    matchLabels:
+      app: spaceapp
+  template:
+    metadata:
+      labels:
+        app: spaceapp
+    spec:
+        containers:
+          - name: myapp
+            image: mackingsley/spaceapp
+            ports:
+              - containerPort: 80
