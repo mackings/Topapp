@@ -5,7 +5,7 @@ jobs:
         runs-on: ubuntu-latest
         steps:
           - name: First deploy
-            run: echo "Hello Mac kingsley"
+            run: echo "Hello Macs kingsley"
           - name: Artifact
             run: mkdir -p path/to/artifact
           - name: file save
